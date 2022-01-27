@@ -6,6 +6,7 @@
  - [Description](#description)
 	 - [General](#general)
 	 - [Main features](#main-features)
+	 - [NEAT vs naive algorithm](#NEAT-vs-naive-algorithm)
  - [Usage](#usage)
  - [Links](#links)
 
@@ -27,6 +28,9 @@ Like any forecasting algorithm, MACD is not perfect, because it can generate fal
   - naive algorithm
   - MACD and SIGNAL
   - S&P 500 stock data
+
+### NEAT vs naive algorithm
+![comparison](images/comparison_chart.png "Comparison")
 
 ## Usage
  - University Project
