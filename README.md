@@ -5,6 +5,8 @@
 
  - [Description](#description)
 	 - [General](#general)
+	 - [MACD description](#MACD-description)
+	 - [Data Preparation](#data-preparation)
 	 - [Main features](#main-features)
 	 - [NEAT vs naive algorithm](#NEAT-vs-naive-algorithm)
  - [Usage](#usage)
@@ -22,6 +24,11 @@ Moving Average Convergence Divergence (MACD) is a trend-following momentum indic
 MACD can be interpreted in many ways. One of them (which is exploited in this project) says that there is going to be a downward trend, when MACD line crosses SIGNAL line from the top, and that there is going to be an upward trend when SINGAL line is corssed from the bottom by MACD line.
 
 Like any forecasting algorithm, MACD is not perfect, because it can generate false signals. However, it is very useful, especially with long-term investments.
+
+
+### Data Preparation
+Data used in this project comes from kaggle S&P 500 stock data (link is below). To train agent, I had to calculate MACD and SIGNAL values for each chart. Then I divided data set into train and test set in 90 to 10 ratio.
+
 
 ### Main features
   - NEAT algorithm
