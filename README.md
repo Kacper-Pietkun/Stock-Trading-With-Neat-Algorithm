@@ -31,8 +31,8 @@ Data used in this project comes from kaggle S&P 500 stock data (link is below). 
 
 
 ### Main features
-  - NEAT algorithm
-  - naive algorithm
+  - using NEAT algorithm to trade stocks
+  - using naive algorithm to trade stocks
   - MACD and SIGNAL
   - S&P 500 stock data
 
